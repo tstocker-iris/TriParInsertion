@@ -29,7 +29,9 @@ public class InsertionSort {
             // Etape 2
             // Décalez d'un cran à droite la partie se trouvant à droite de dest
             int k;
+            // Si l'index courant + 1 est supérieur à la taille de notre tableau trié
             if (i + 1 >= sorted.length) {
+                // C'est qu'on est arrivé à la fin du tableau d'argument et que l'index à décaler est le dernier
                 k = i;
             } else {
                 k = i + 1;
